@@ -7,7 +7,7 @@
     "url": "git+https://github.com/seonwoojin/wetube-seonwoo.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Seonwoo",
   "license": "MIT",
@@ -16,8 +16,15 @@
   },
   "homepage": "https://github.com/seonwoojin/wetube-seonwoo#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "morgan": "^1.10.0"
+    "express-session": "^1.17.3",
+    "mongoose": "^6.3.8",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
